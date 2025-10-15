@@ -2,8 +2,11 @@
  *{
     margin: auto;
  }
+ body{
+    font-family: "Ubuntu", sans-serif;
+ }
  header {
-     background: rgb(203, 152, 211);
+     background: rgb(187, 106, 153);
      text-align: center;
      margin-bottom: 20px;
      border: solid 4px #000000;
@@ -22,6 +25,28 @@ h2{
      color: #925757;
      font-family: "Ubuntu", sans-serif;
  }
+ nav{
+    overflow: hidden;
+    padding: 20px 0;
+ }
+ .bi{
+    color: #000000;
+ }
+ #menu-principal{
+    list-style-type: none;
+    display: flex;
+ }
+ #menu-principal a{
+    text-decoration: none;
+    color: #ba47c5;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 8px;
+ }
+ #menu-principal a:hover{
+    color: #ffff;
+    background-color: #c55297;
+ }
 #foto-Perfil {
     width: 300px;
     border-radius: 40px;
@@ -39,8 +64,10 @@ section{
     margin-top: 30px;
     text-align: center;
 }
+#lista-proyecto{
+    display: flex;
+}
 .proyecto{
-    float: left;
     width: 33%;
     margin-top: 20px;
 }
@@ -73,7 +100,7 @@ progress{
 }
 .lista-tecnologias{
     list-style: none;
-    display: grid;
+    display: flex;
     margin-left: 0;
     gap: 15px;
 }
@@ -83,4 +110,29 @@ progress{
     padding: 12px 20px;
     border-radius: 25px;
     text-align: center;
+}
+#contactos{
+    padding: 40px;
+}
+.campos{
+    width: 70%;
+    clear: both;
+    font-size: 28px;
+}
+.campos label{
+    padding-right: 20px;
+}
+.campos input{
+    padding: 10px;
+    border: solid 2px #c55297;
+    width: 50%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+footer{
+    overflow: hidden;
+    padding: 40px 0;
+    background-color: #b7669e;
+    text-align: center;
+    border-top: solid 5px #d989b9;
 }
