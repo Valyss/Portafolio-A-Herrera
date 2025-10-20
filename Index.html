@@ -129,8 +129,49 @@
             <form action="">
                 <div class="campos">
                     <label for="">Nombre completo</label>
-                    <input type="text" value="Alison Herrera" name="nombre" placeholder="Nombre completo" disabled>
-                    <button>Enviar</button>
+                    <input type="text" value="" name="nombre" placeholder="Nombre completo" required>
+                </div>
+                <div class="campos">
+                    <label for="">Email</label>
+                    <input type="email" name="correo_electronico" placeholder="ejemplo@utcancun.edu.mx" required>
+                </div>
+
+                <div class="campos">
+                    <label for="">Motivo</label>
+                    <select name="" id="">
+                        <option value="1">contacto</option>
+                        <option selected="">Cotizacion</option>
+                        <option value="">Otro</option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label for="">Telefono</label>
+                    <input type="tel">
+                </div>
+                <div class="campos">
+                    <label for="">Fecha de eventos</label>
+                    <input type="date">
+                </div>
+                <div class="campos">
+                    <label for="">Numero de empleados</label>
+                    <input type="number">
+                </div>
+                <div class="campos">
+                    <label for="">Modo de contacto</label>
+                    <input type="checkbox" class="option" name="modalidad"><span>WhatssApp</span>
+                    <input type="checkbox" class="option" name="modalidad"><span>Correo</span>
+                </div>
+                <div class="campos">
+                    <label for="">Eres cliente</label>
+                    <input type="radio" name="es_cliente"><span>Si</span>
+                    <input type="radio" name="es_cliente"><span>No</span>
+                </div>
+                <div class="campos">
+                    <label for="">Fotografia</label>
+                    <input type="file">
+                </div>
+                <div class="campos">
+                    <button type="submit">Enviar</button>
                 </div>
             </form>
         </section>

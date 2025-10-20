@@ -122,13 +122,21 @@ progress{
 .campos label{
     padding-right: 20px;
 }
-.campos input{
+.campos input, select{
     padding: 10px;
     border: solid 2px #c55297;
     width: 50%;
     font-size: 20px;
     border-radius: 10px;
 }
+.campos button{
+    background-color: #c55297;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 15px;
+    border-radius: 18px;
+}
+
 footer{
     overflow: hidden;
     padding: 40px 0;
